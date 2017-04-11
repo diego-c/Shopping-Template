@@ -1,0 +1,395 @@
+/* BODY */
+body {
+  margin: 0;
+}
+.container-fluid {
+  padding: 0;
+}
+/*NAV */
+
+/* LOGIN DROPDOWN */
+#navbarNav > ul > li.nav-item.dropdown, #navbarNav > ul > li:nth-child(5) {
+  display: block;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 3000;
+  padding: 0;
+  font-size: 25px;
+}
+.dropdown-menu {
+  min-width: 20rem;
+  left: -700%;
+  background-color: #becdcc;
+  border-style: solid;
+  border-width:medium;
+}
+#navbarNav > ul > li:nth-child(2) > div > span > div > form > div img {
+  width: 20%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+#navbarNav > ul > li:nth-child(2) > div > span > div {
+  font-family: Lora, serif;
+  font-size: 20px;
+}
+#inputEmail {
+  margin-bottom: 7%;
+}
+#inputPwd {
+  margin-bottom: 5%;
+}
+#navbarNav > ul > li:nth-child(2) > div > span > div > form > div > input.btn.btn-success.btn-success-outline {
+  margin-bottom: 5%;
+}
+#navbarNav > ul > li:nth-child(2) > div > span > div > form > div > label:nth-child(7) {
+  margin-bottom: 5%;
+}
+#navbarNav > ul > li:nth-child(2) > div > span > div > form > div > input.btn.btn-info.btn-info-outline {
+  margin-bottom: 5%;
+}
+#navbarNav > ul > li:nth-child(2) > div > span > div > form > div > label:nth-child(11) {
+  margin-bottom: 5%;
+}
+
+
+body > header > div:nth-child(1) > nav {
+  width: 100%;
+  padding: 1%;
+}
+body > header > div:nth-child(1) > nav:hover {
+  background-color: orange;
+}
+#navbarNav > ul {
+  width: 100%;
+}
+#navbarNav ul li {
+  margin-left: 5%;
+  padding: 0;
+  color: white;
+  cursor: pointer;
+}
+#navbarNav ul li:hover {
+  color: black;
+}
+#navbarNav > ul > li:nth-child(5) > a {
+  padding: 0;
+  font-family: Quicksand, sans-serif;
+  color: white;
+  font-weight: 500;
+}
+#navbarNav > ul > li:nth-child(5) > a:hover {
+  color:black;
+}
+#navbarNav > ul > li:nth-child(1) {
+  margin-right: 15%;
+  margin-left: 10%;
+}
+#navbarNav > ul > li.nav-item.dropdown {
+  margin-right: 7%;
+}
+.navbar-toggler-right {
+    position: absolute;
+    right: 0;
+    left:0;
+    top:0;
+  }
+  @media only screen and (max-width:993px) {
+    .navbar-nav {
+      padding-top: 20%;
+    }
+  #navbarNav {
+    width: 100%;
+    }
+  nav {
+    padding:0;
+    width: 100%;
+  }
+  body > header > div:nth-child(1) > nav {
+    padding: 0;
+    background-color: orange;
+  }
+  #navbarNav > ul > li:nth-child(3) > form > input {
+    width: 80%;
+  }
+  #navbarNav > ul > li:nth-child(3) > form > span {
+    margin:0;
+  }
+
+#navbarNav > ul > li:nth-child(1) {
+  margin-left: 5%;
+}
+#navbarNav ul li {
+  font-size: 30px;
+}
+  }
+
+/* HEADER */
+header {
+  height: 653px;
+  background-image: url("wood-coffee-iphone-notebook-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+
+}
+body > header > div:nth-child(2) {
+  position: relative;
+  top: 55%;
+}
+body > header > div:nth-child(2) > h1 > span.comfort {
+  font-size: 10vw;
+  letter-spacing: 0.05em;
+  color: #2f9ea2;
+  font-family: Lora, serif;
+  font-weight: bold;
+}
+body > header > div:nth-child(2) > h1 > span.kit {
+  font-size: 11vw;
+  letter-spacing: 0.05em;
+  margin-left: 3%;
+  color: #d75f5f;
+}
+
+/* FEATURED PRODUCTS */
+body > section {
+background-color: #e3debc;
+padding: 5%;
+}
+body > section > div > div > div > div.text-center > img {
+  width: 40%;
+}
+body > section > div > div > div > div > input.btn.btn-default.btn-success.btn-success-outline {
+  margin-bottom: 5%;
+}
+body > section > div > div > div > div > input.btn.btn-default.btn-secondary.btn-secondary-outline {
+  cursor: pointer;
+}
+body > section > div {
+  font-family: Lora, serif;
+}
+body > section > div > h2 {
+  font-size: 5vw;
+
+}
+body > section > div > div > div > div > p:nth-child(1) {
+  font-size: 2vw;
+  margin-top: 4%;
+}
+body > section > div > div > div > div > p:nth-child(2) {
+  font-size: 3vw;
+  margin-bottom: 8%;
+}
+body > section > div > div > div > div > input.btn.btn-default.btn-secondary.btn-secondary-outline {
+  margin-bottom: 30%;
+}
+hr {
+  margin-bottom: 5%;
+}
+
+/* OUR SELECTION */
+
+body > section:nth-child(3) {
+  background-color: lightblue;
+}
+
+
+/* WHY WE ARE AWESOME */
+body > section:nth-child(4) > div > div > blockquote > p > img {
+  width: 20%;
+  border-radius: 50%;
+  float: right;
+}
+body > section:nth-child(4) > div > div:nth-child(4) > blockquote > p:nth-child(1) > img {
+  float: left;
+}
+body > section:nth-child(4) > div > div {
+  margin-bottom: 15%;
+}
+body > section:nth-child(4) > div > div > blockquote p {
+  font-size: 2vw;
+}
+body > section:nth-child(4) > div > div > blockquote cite {
+  font-size: 1.5vw;
+}
+blockquote .cite-right-1 {
+  position:relative;
+  left: 55%;
+}
+blockquote .cite-right-2 {
+  position:relative;
+  left: 50%;
+}
+body > section:nth-child(4) > div > div:nth-child(4) > blockquote > p > img {
+  position: relative;
+  left: -2.5%;;
+}
+
+/* CONTACT US */
+
+body > section:nth-child(5) > div > div > form > fieldset:nth-child(3) > fieldset {
+  margin-top: 5%;
+}
+body > section:nth-child(5) > div > div > form > fieldset:nth-child(3) > div.form-check {
+  margin-bottom: 2%;
+}
+body > section:nth-child(5) {
+  background-color: lightgrey;
+}
+
+/* FOOTER */
+
+body > footer {
+  background-color: #098884;
+  padding: 1%;
+  color: white;
+  font-size: 2vw;
+}
+
+
+
+
+body > section:nth-child(2) {
+  background-color: #323f3e;
+  color: white;
+}
+section:nth-child(2) hr {
+  background-color: white;
+}
+
+/* IMPORTANT FOR RESPONSIVE DESIGN */
+
+body > header > div:nth-child(1) > ul > li:nth-child(1) {
+  position: relative;
+  left: 5%;
+  font-size: 35px;
+  cursor: pointer;
+}
+body > header > div:nth-child(1) > ul > li:nth-child(1) > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
+body > header > div:nth-child(1) > ul > li:nth-child(1) > ul li {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+
+#mobileNav > ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+}
+
+@media screen and (min-width: 992px) {
+body > header > div:nth-child(1) > ul > li:nth-child(1) {
+  display: none;
+}
+.mobileNav {
+  display:none;
+}
+}
+@media screen and (max-width:485px) {
+  .mobileForm {
+    padding: 10%;
+  }
+}
+@media screen and (max-width: 991px) {
+  body > header > div:nth-child(1) > ul > li:nth-child(2),#cartDesk,li:nth-child(5),li:nth-child(6) {
+    display: none;
+  }
+  .desktopNav {
+    display: none;
+  }
+  #mobileNav ul {
+    display: inline-block;
+    padding: 1.5%;
+    width: 100%;
+  }
+  #mobileNav ul li {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .mobileForm {
+    width: 5%;
+    position: absolute;
+    left: 0;
+    margin:0;
+  }
+  #mobileNav > ul > li:nth-child(2) > div > div > form > div {
+    margin-bottom: 5%;
+  }
+  #mobileNav > ul > li:nth-child(2) > div > div > form > fieldset:nth-child(4) > label:nth-child(1) {
+    margin-bottom: 5%;
+  }
+  #mobileNav > ul > li:nth-child(2) > div > div > form > fieldset:nth-child(4) > input {
+    margin-bottom:5%;
+  }
+body > header > div:nth-child(1) > nav.navbar.navbar-toggleable-sm.navbar-toggleable-xs.navbar-light.mobileNav > button {
+  left: 78%;
+  right: 0;
+}
+
+  body > header > div:nth-child(1) > ul > li:nth-child(3) {
+    position: relative;
+    right: 0;
+    left:0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header {
+    background-position: center center;
+  }
+  .dropdown-menu {
+    left: -350%;
+    overflow-y: visible;
+  }
+  .nav {
+    background-color: orange;
+  }
+  body > header > div:nth-child(2) > h1 > span.comfort {
+    font-size: 12vw;
+  }
+  body > header > div:nth-child(2) > h1 > span.kit {
+    font-size: 13vw;
+  }
+
+}
+@media screen and (min-width: 450px) {
+  #mobileNav > ul li {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media screen and (min-width: 540px) {
+  body > header > div:nth-child(1) > nav.navbar.navbar-toggleable-sm.navbar-toggleable-xs.navbar-light.mobileNav > button {
+    left: 90%;
+  }
+  #mobileNav > ul li {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #mobileNav > ul li {
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+
+}
