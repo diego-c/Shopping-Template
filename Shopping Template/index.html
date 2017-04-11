@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" type="text/css" href="responsive.css">
     <title>Shopping Template</title>
 
 </head>
@@ -39,7 +41,7 @@
             <!-- DESKTOP NAVBAR -->
 
             <nav class="navbar navbar-toggleable-md navbar-light desktopNav">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler navbar-toggler-right desktopToggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -89,7 +91,7 @@
 
             <!-- MOBILE NAVBAR -->
             <nav class="navbar navbar-toggleable-sm navbar-toggleable-xs navbar-light mobileNav">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mobileNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="z-index:4000;">
+                <button class="navbar-toggler navbar-toggler-right mobileToggler" type="button" data-toggle="collapse" data-target="#mobileNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="z-index:4000;">
               <span class="navbar-toggler-icon"></span>
             </button>
                 <div class="collapse navbar-collapse" id="mobileNav">
@@ -100,43 +102,45 @@
                         <li class="nav-item hideOnClick2">
                             <div class="dropdown open">
                                 <span class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i></span>
-                                <div class="dropdown-menu mobileForm text-center" aria-labelledby="dropdownMenu1">
-                                    <form>
-                                        <fieldset class="form-group">
-                                            <label for="exampleInputEmail1">E-mail</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your e-mail...">
-                                        </fieldset>
-                                        <fieldset class="form-group">
-                                            <label for="exampleInputPassword1">Password</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password...">
-                                            <small class="text-muted">We'll never share your email or password with anyone else.</small>
-                                        </fieldset>
-                                        <div class="form-check">
-                                            <button type="submit" class="btn btn-success btn-success-outline">Sign in</button>
-                                        </div>
-                                        <fieldset class="form-group">
-                                            <label for="sigin">Still not a member?<br>
-                          Get comfortable today!</label><br>
-                                            <input type="button" class="btn btn-info btn-info-outline" value="Sign up"><br>
-                                            <label for="other">Or login using</label><br>
-                                            <span><img src="images/facebook-logo.png" class="img-fluid" alt="facebook" style="width: 20%; margin-right: 2%; margin-left: 2%"></span><span><img src="images/twitter-logo.png" class="img-fluid" alt="twitter" style="width: 20%; margin-right: 2%; margin-left: 2%"></span><span><img src="images/google-logo.png" class="img-fluid" alt="googleplus" style="width: 20%; margin-right: 2%; margin-left: 2%"></span>
-                                        </fieldset>
-                                    </form>
-                                </div>
-                              </div>
-                        </li>
-                        <li class="nav-item dropdown hideOnClick1" id="#mobileCart">
-                            <span data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span> <span class="badge badge-default">0</span>
-                            <div class="dropdown-menu">
-                                <div class="dropdown-header">Your cart is empty.</div>
                             </div>
                         </li>
+                        <li class="nav-item dropdown hideOnClick1">
+                            <div class="dropdown open">
+                                <span class="dropdown-toggle" id="mobileCart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> <span class="badge badge-default">0</span></span>
+                            </div>
+                          </li>
                         <li class="nav-item hideOnClick1 hideOnClick2">
-                            <span><i class="fa fa-envelope contact" aria-hidden="true"></i></span>
+                            <span class="contact"><i class="fa fa-envelope contact" aria-hidden="true"></i></span>
                         </li>
                     </ul>
                     </div>
             </nav>
+            <div class="dropdown-menu text-center mobileCart" aria-labelledby="mobileCart">
+                <div class="dropdown-header">Your cart is empty.</div>
+            </div>
+            <div class="dropdown-menu mobileForm text-center" aria-labelledby="dropdownMenu1">
+                <form>
+                    <fieldset class="form-group">
+                        <label for="exampleInputEmail1">E-mail</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your e-mail...">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password...">
+                        <small class="text-muted">We'll never share your email or password with anyone else.</small>
+                    </fieldset>
+                    <div class="form-check">
+                        <button type="submit" class="btn btn-success btn-success-outline">Sign in</button>
+                    </div>
+                    <fieldset class="form-group">
+                        <label for="sigin">Still not a member?<br>
+      Get comfortable today!</label><br>
+                        <input type="button" class="btn btn-info btn-info-outline" value="Sign up"><br>
+                        <label for="other">Or login using</label><br>
+                        <span><img src="images/facebook-logo.png" class="img-fluid" alt="facebook" style="width: 20%; margin-right: 2%; margin-left: 2%"></span><span><img src="images/twitter-logo.png" class="img-fluid" alt="twitter" style="width: 20%; margin-right: 2%; margin-left: 2%"></span><span><img src="images/google-logo.png" class="img-fluid" alt="googleplus" style="width: 20%; margin-right: 2%; margin-left: 2%"></span>
+                    </fieldset>
+                </form>
+            </div>
         </div>
 
         <!-- HEADER -->
@@ -146,7 +150,7 @@
 
         </div>
     </header>
-    <section>
+    <section id = "featured">
         <div class="container-fluid">
             <h2 class="text-center"><span><i class="fa fa-fire"></i></span> Featured products</h2>
             <hr>
@@ -187,7 +191,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="selection">
         <div class="container-fluid">
             <h2 class="text-center"><span><i class="fa fa-coffee"></i></span> Our selection</h2>
             <hr>
@@ -244,7 +248,7 @@
 
         </div>
     </section>
-    <section>
+    <section id="awesome">
         <div class="container-fluid jumbotron-fluid">
             <h2 class="text-center"><span><i class="fa fa-heart" aria-hidden="true"></i></span> Why we are awesome</h2>
             <hr>
@@ -268,12 +272,12 @@
                 </blockquote>
             </div>
             <div>
-                <h3 class="text-center">What are you waiting for? Join us today!</h3>
+                <h3 class="text-center">What are you waiting for?&nbsp; Join&nbsp;us today!</h3>
             </div>
         </div>
     </section>
-    <section>
-        <div class="container-fluid" id="contact">
+    <section id="contact">
+        <div class="container-fluid">
             <h2 class="text-center"><span><i class="fa fa-envelope" aria-hidden="true"></i></span> Contact us</h2>
             <hr>
             <div>

@@ -17,13 +17,18 @@ function checkSize(){
 }
 
 $('#dropdownMenu1').on('click',function(){
-$('.hideOnClick1').fadeToggle();
 $('.mobileForm').slideToggle(400);
 });
 
-$('.contact').show();
+$('#mobileCart').on('click',function(){
 
-$('#mobileCart').click(function(){
-$('.hideOnClick2').fadeToggle();
+$('.mobileCart').slideToggle(400);
+
+});
+
+$('.contact').on('click',function(){
+$('html, body').animate({
+  scrollTop: $('#contact').offset().top
+},2000);
 
 });
