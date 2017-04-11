@@ -1,0 +1,231 @@
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 250px) {
+    /* NAVBAR */
+    .mobileNav {
+        background-color: orange;
+        width: 100%;
+    }
+    #mobileNav ul li {
+        display: inline-block;
+        margin-right: 1%;
+        margin-left: 3%;
+        cursor: pointer;
+    }
+    #mobileNav ul {
+        display: inline-block;
+        width: 100%;
+    }
+    .mobileToggler {
+        left: 85%;
+        padding: 1%;
+    }
+    .desktopToggler {
+        display: none;
+    }
+    .mobileForm {
+        left: 0;
+        top: 2.2rem;
+        min-width: 17rem;
+        width: 10%;
+        position: fixed;
+    }
+    .mobileCart {
+        left: 4rem;
+        top: 2.2rem;
+        min-width: 5rem;
+        position: fixed;
+    }
+    /* FONT SIZE */
+    /* HEADER */
+    body>header>div:nth-child(2)>h1>span.comfort {
+        font-size: 15vw;
+    }
+    body>header>div:nth-child(2)>h1>span.kit {
+        font-size: 16vw;
+    }
+    /* FEATURED */
+    #featured h2 {
+        font-size: 8vw;
+    }
+    #featured>div>div p {
+        font-size: 6vw;
+    }
+    /* OUR SELECTION */
+    #selection h2 {
+        font-size: 8vw;
+    }
+    #selection>div>div p {
+        font-size: 6vw;
+    }
+    /* WHY WE ARE AWESOME */
+    #awesome h2 {
+        font-size: 7vw;
+    }
+    #awesome>div>div:nth-child(6)>h3 {
+        font-size: 6vw;
+    }
+    #awesome>div>div blockquote p {
+        font-size: 4vw;
+    }
+    #awesome>div>div blockquote cite {
+        font-size: 3.2vw;
+    }
+    #awesome>div>div blockquote img {
+        min-width: 7rem;
+    }
+    /* CONTACT US */
+    #contact h2 {
+        font-size: 8vw;
+    }
+    #contact>div>div>form>fieldset:nth-child(2)>fieldset:nth-child(3) {
+        margin-top: 5%;
+    }
+    /* FOOTER */
+    body>footer {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    /* NAVBAR */
+    .mobileToggler {
+        padding: 0.5%;
+        left: 90%;
+    }
+    #mobileNav ul li {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .mobileCart {
+        left: 6rem;
+    }
+}
+
+@media screen and (min-width: 410px) {
+  /* NAVBAR */
+  .mobileToggler {
+      padding: 0.5%;
+      left: 91%;
+  }
+  #mobileNav ul li {
+      margin-left: 5.5%;
+      margin-right: 5.5%;
+  }
+  .mobileCart {
+      left: 8rem;
+  }
+
+}
+
+@media screen and (min-width: 440px) {
+    /* WHY WE ARE AWESOME IMAGES */
+    #awesome>div>div blockquote img {
+        min-width: 9rem;
+    }
+}
+
+@media screen and (min-width: 545px) {
+    /* NAVBAR */
+    #mobileNav ul li {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    .mobileCart {
+        left: 11rem;
+    }
+    /* FONT SIZE */
+    /* HEADER */
+    body>header>div:nth-child(2)>h1>span.comfort {
+        font-size: 14vw;
+    }
+    body>header>div:nth-child(2)>h1>span.kit {
+        font-size: 15vw;
+    }
+    /* FEATURED */
+    #featured h2 {
+        font-size: 7vw;
+    }
+    #featured>div>div p {
+        font-size: 5vw;
+    }
+    /* OUR SELECTION */
+    #selection h2 {
+        font-size: 7vw;
+    }
+    #selection>div>div p {
+        font-size: 5vw;
+    }
+    /* WHY WE ARE AWESOME */
+    #awesome h2 {
+        font-size: 6vw;
+    }
+    #awesome>div>div:nth-child(6)>h3 {
+        font-size: 5vw;
+    }
+    #awesome>div>div blockquote img {
+        min-width: 12rem;
+    }
+    /* CONTACT US */
+    #contact h2 {
+        font-size: 7vw;
+    }
+    /* FOOTER */
+    body>footer {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width:574px) {
+    /* NAVBAR */
+    #mobileNav ul li {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .mobileCart {
+        left: 14rem;
+    }
+    .mobileToggler {
+        left: 92%;
+    }
+    .mobileForm {
+        left: 8%;
+        padding: 2%;
+    }
+    /* OUR SELECTION */
+    #selection>div>div p {
+        font-size: 4vw;
+    }
+    /* WHY WE ARE AWESOME */
+    #awesome>div>div blockquote img {
+        min-width: 11rem;
+    }
+}
+
+@media screen and (min-width: 710px) {
+    /* NAVBAR */
+    #mobileNav ul li {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .mobileCart {
+        left: 19rem;
+    }
+    .mobileToggler {
+        left: 94%;
+    }
+    .mobileForm {
+        left: 11%;
+    }
+    /* WHY WE ARE AWESOME */
+    #awesome>div>div blockquote img {
+        min-width: 13rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+/* HIDE MOBILE NAVBAR AND SHOW DESKTOP NAVBAR!!! */
+
+
+}
