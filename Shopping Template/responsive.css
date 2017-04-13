@@ -6,6 +6,12 @@
         background-color: orange;
         width: 100%;
     }
+    .searchNav {
+        width: 80%;
+    }
+    #mobileNav>form>span {
+        margin-left: 3%;
+    }
     #mobileNav ul li {
         display: inline-block;
         margin-right: 1%;
@@ -25,14 +31,14 @@
     }
     .mobileForm {
         left: 0;
-        top: 2.2rem;
+        top: 5.5rem;
         min-width: 17rem;
         width: 10%;
         position: fixed;
     }
     .mobileCart {
         left: 4rem;
-        top: 2.2rem;
+        top: 5.5rem;
         min-width: 5rem;
         position: fixed;
     }
@@ -100,28 +106,48 @@
     .mobileCart {
         left: 6rem;
     }
+    .searchNav {
+        width: 62%;
+    }
 }
 
 @media screen and (min-width: 410px) {
-  /* NAVBAR */
-  .mobileToggler {
-      padding: 0.5%;
-      left: 91%;
-  }
-  #mobileNav ul li {
-      margin-left: 5.5%;
-      margin-right: 5.5%;
-  }
-  .mobileCart {
-      left: 8rem;
-  }
-
+    /* NAVBAR */
+    .mobileToggler {
+        padding: 0.5%;
+        left: 91%;
+    }
+    #mobileNav ul li {
+        margin-left: 5.5%;
+        margin-right: 5.5%;
+    }
+    .mobileCart {
+        left: 8rem;
+    }
 }
 
 @media screen and (min-width: 440px) {
     /* WHY WE ARE AWESOME IMAGES */
     #awesome>div>div blockquote img {
         min-width: 9rem;
+    }
+    .searchNav {
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+    }
+    #mobileNav>form>span {
+        position: relative;
+        right: 15%;
+    }
+}
+
+@media screen and (min-width: 470px) {
+    .searchNav {
+        width: 50%;
+    }
+    #mobileNav>form>span {
+        right: 20%;
     }
 }
 
@@ -202,6 +228,18 @@
     }
 }
 
+@media screen and (min-width: 576px) {
+    .searchNav {
+        width: 70%;
+        text-align: center;
+        right: 50%;
+        left: -25%;
+    }
+    #mobileNav>form>span {
+        right: 28%;
+    }
+}
+
 @media screen and (min-width: 710px) {
     /* NAVBAR */
     #mobileNav ul li {
@@ -221,11 +259,112 @@
     #awesome>div>div blockquote img {
         min-width: 13rem;
     }
+    .searchNav {
+        left: -30%;
+    }
+    #mobileNav>form>span {
+        right: 32%;
+    }
 }
 
 @media screen and (min-width: 768px) {
+    #mobileNav ul li {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    .mobileCart {
+        left: 10rem;
+        top: 8%;
+    }
+    .mobileForm {
+        top: 8%;
+        left: 0;
+    }
+    .searchNav {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+    #mobileNav>form {
+        width: 100%;
+        position: relative;
+        right: 0;
+        left: -10%;
+        text-align: center;
+        top: 0;
+    }
+    #mobileNav>form>span {
+        margin: 0;
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+}
 
-/* HIDE MOBILE NAVBAR AND SHOW DESKTOP NAVBAR!!! */
+@media screen and (min-width: 780px) {
+    #mobileNav>form {
+        width: 50%;
+        left: -5%;
+    }
+    #mobileNav ul li {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .mobileCart {
+        left: 13rem;
+    }
+    .mobileForm {
+        left: 3%;
+    }
+}
 
+@media screen and (min-width: 850px) {
+    #mobileNav ul li {
+        margin-left: 7.6%;
+        margin-right: 7.6%;
+    }
+    #mobileNav>form {
+        width: 50%;
+    }
+}
 
+@media screen and (min-width: 880px) {
+    .mobileCart {
+        left: 15rem;
+    }
+    .mobileForm {
+        left: 5%;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    #mobileNav ul li {
+        margin-left: 8.5%;
+        margin-right: 8.5%;
+    }
+    .mobileCart {
+        left: 18rem;
+    }
+    .mobileForm {
+        left: 7%;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .mobileCart {
+        left: 20rem;
+    }
+    .mobileForm {
+        left: 9%;
+    }
+    #mobileNav>form {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* HIDE MOBILE NAVBAR AND SHOW DESKTOP NAVBAR!!! */
+    .mobileNav {
+        display: none;
+    }
 }
