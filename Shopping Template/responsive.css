@@ -326,6 +326,56 @@
     #mobileNav>form {
         width: 50%;
     }
+
+    /* FIXING THE FONT SIZE */
+
+    body > header > div:nth-child(2) > h1 > span.comfort {
+      font-size: 10vw;
+    }
+    body > header > div:nth-child(2) > h1 > span.kit {
+      font-size: 11vw;
+    }
+     #featured > div > h2 {
+      font-size: 5vw;
+    }
+    #featured > div > div > div:nth-child(1) > div:nth-child(2) > p:nth-child(1) {
+      font-size: 3vw;
+    }
+    #featured > div > div > div > div:nth-child(2) > p {
+      font-size: 3vw;
+    }
+    #selection > div > h2 {
+      font-size: 5vw;
+    }
+    #selection > div > div > div > div > p {
+      font-size: 3vw;
+    }
+    #awesome > div > h2 {
+      font-size: 5vw;
+    }
+    #awesome > div > div > blockquote p {
+      font-size: 3vw;
+    }
+  #awesome > div > div > blockquote > cite {
+    font-size: 3vw;
+  }
+  #awesome > div > div:nth-child(3) > blockquote > cite {
+    position: relative;
+    left: 0;
+  }
+  #contact > div > h2 {
+    font-size: 5vw;
+  }
+  #contact > div > div > form {
+    font-size: 2vw;
+  }
+  body > footer > div > p {
+    font-size: 3vw;
+  }
+  #contact > div > div > form > fieldset:nth-child(2) > div.form-check > label > input {
+    transform: scale(1.5);
+  }
+
 }
 
 @media screen and (min-width: 880px) {
@@ -367,4 +417,39 @@
     .mobileNav {
         display: none;
     }
+    #\23 cartDesk > div {
+      text-align: center;
+      width: 50%;
+      min-width: 12rem;
+      margin: .125rem 0 0 -5rem;
+      left: 0;
+    }
+}
+
+/* MORE FIXING ON MARGINS AND FONTS FOR BIGGER SCREENS */
+@media screen and (min-width: 1050px) {
+  #awesome > div > div > blockquote p {
+    font-size: 2.5vw;
+  }
+  #awesome > div > div > blockquote cite {
+  font-size: 2.5vw;
+  }
+  #awesome > div > div > blockquote p img {
+    width: 40%;
+  }
+ body>section:nth-child(4)>div>div {
+    height: 300px;
+    margin-bottom: 0;
+  }
+  #awesome > div > div:nth-child(5) > blockquote > cite {
+    position: relative;
+    left: 0;
+  }
+  #awesome > div div {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  #awesome {
+    margin-bottom: -10%;
+  }
 }

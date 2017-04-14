@@ -11,9 +11,6 @@ body {
 
 /*NAV */
 
-
-/* LOGIN DROPDOWN */
-
 #navbarNav>ul>li.nav-item.dropdown, #navbarNav>ul>li:nth-child(5) {
     display: block;
 }
@@ -32,7 +29,9 @@ body {
     border-style: solid;
     border-width: medium;
 }
-
+.desktopNav:hover {
+  background-color: orange;
+}
 #navbarNav>ul>li:nth-child(2)>div>span>div>form>div img {
     width: 20%;
     margin-left: 3%;
